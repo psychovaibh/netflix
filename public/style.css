@@ -34,7 +34,7 @@
     bottom: 0;
 }
 
-/* nav bar css satared */
+/* -----------------nav bar css satared ------------------------*/
 
 .nav-bar img {
     width: 200px;
@@ -67,15 +67,34 @@
 
 }
 
+/* -----------------nav bar css Ended ------------------------*/
+
+
+
+
+
+
+
+
+
+/* -----------class for language button on header and footer------------ */
 .lang {
-    padding: 7.5px 30px;
+    padding: 7.2px 30px;
+    margin: 2px;
     background-color: transparent;
     color: white;
     box-shadow: inset 0px 20px 50px rgb(27, 26, 26);
     border-radius: 7px;
-
-
+    text-align: center;
+    width: 160px;
 }
+
+/* -----------class for language button on header and footer------------ */
+
+
+
+
+
 
 /* home-second input and button part css started */
 
@@ -178,7 +197,7 @@
 
 
 .footer{
-    padding: 30px 15% 10px;
+    padding: 70px 12% 10px;
     color: rgb(195, 193, 193);
     background-color: black;
     height: 500px;
@@ -203,9 +222,16 @@
 .footer .col a{
     display: block;
     margin-bottom: 10px;
+    color: #bab3b3;
+    text-decoration: underline;
+    padding: 5px;
 }
 
 .footer .row{
     display: flex;
     padding-top: 30px;
+}
+
+.footer h5{
+    padding-top:25px ;
 }
