@@ -13,10 +13,9 @@
     background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.7)), url('/img/IN-en-20230612-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     width: 100%;
-    height: 120vh;
+    height: 110vh;
     display: block;
     align-items: center;
     justify-content: center;
@@ -68,7 +67,7 @@
 
 }
 
-.nav-bar select {
+.lang {
     padding: 7.5px 30px;
     background-color: transparent;
     color: white;
@@ -137,4 +136,76 @@
     margin-left: 10px;
     outline: none;
     border-radius: 8px;
+}
+
+/* div line gray */
+.blank-line{
+    height: 10px;
+    width: 100%;
+    background-color: #3f3e3e;
+}
+
+/* enjoy part start */
+
+.main-body-enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: flex-start;
+    min-height: auto;
+    padding: 4rem 0;
+}
+
+.main-body-enjoy .text-area{
+    position: relative;
+    top: 110px;
+    left:90px;
+    font-size: 30px;
+}
+
+.main-body-enjoy img{
+    height: 420px;
+    width: 37%;
+}
+
+.main-body-enjoy p{
+    font-size: 30px;
+}
+
+
+/* enjoy part End */
+
+
+.footer{
+    padding: 30px 15% 10px;
+    color: rgb(195, 193, 193);
+    background-color: black;
+    height: 500px;
+}
+
+
+
+.footer .call span{
+    text-decoration: underline;
+}
+
+.footer .list{
+    padding-top: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .row{
+    display: flex;
+    padding-top: 30px;
 }

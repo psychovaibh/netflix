@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Home() {
   return (
     <>
@@ -14,7 +13,7 @@ export default function Home() {
                 />
                 <ul>
                   <li>
-                    <select name="" id="language">
+                    <select name="" id="language" className="lang">
                       <option value="en">English</option>
                       <option value="hin">Hindi</option>
                     </select>
@@ -47,6 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="blank-line"></div>
       </div>
     </>
   );
