@@ -54,7 +54,8 @@
     align-items: center;
 }
 
-.nav-bar button,select{
+.nav-bar button,
+select {
     height: 47px;
     margin: 10px 10px;
 }
@@ -147,7 +148,8 @@
     border-radius: 7px;
 }
 
-.home-second .input-button button {
+.home-second .input-button button,
+.submit-button {
     color: white;
     background-color: #e50914;
     width: 10%;
@@ -158,7 +160,7 @@
 }
 
 /* div line gray */
-.blank-line{
+.blank-line {
     height: 10px;
     width: 100%;
     background-color: #3f3e3e;
@@ -166,7 +168,7 @@
 
 /* enjoy part start */
 
-.main-body-enjoy{
+.main-body-enjoy {
     background-color: black;
     color: white;
     display: flex;
@@ -176,19 +178,19 @@
     padding: 4rem 0;
 }
 
-.main-body-enjoy .text-area{
+.main-body-enjoy .text-area {
     position: relative;
     top: 110px;
-    left:90px;
+    left: 90px;
     font-size: 30px;
 }
 
-.main-body-enjoy img{
+.main-body-enjoy img {
     height: 420px;
     width: 37%;
 }
 
-.main-body-enjoy p{
+.main-body-enjoy p {
     font-size: 30px;
 }
 
@@ -196,7 +198,7 @@
 /* enjoy part End */
 
 
-.footer{
+.footer {
     padding: 70px 12% 10px;
     color: rgb(195, 193, 193);
     background-color: black;
@@ -205,21 +207,21 @@
 
 
 
-.footer .call span{
+.footer .call span {
     text-decoration: underline;
 }
 
-.footer .list{
+.footer .list {
     padding-top: 30px;
 }
 
-.footer .col{
+.footer .col {
     flex-basis: 25%;
     flex-grow: 1;
     margin-bottom: 20px;
 }
 
-.footer .col a{
+.footer .col a {
     display: block;
     margin-bottom: 10px;
     color: #bab3b3;
@@ -227,11 +229,197 @@
     padding: 5px;
 }
 
-.footer .row{
+.footer .row {
     display: flex;
     padding-top: 30px;
 }
 
-.footer h5{
-    padding-top:25px ;
+.footer h5 {
+    padding-top: 25px;
+}
+
+
+
+/* ----download--part--------- */
+
+
+.download {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding-top: 60px;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.download img {
+    height: 410px;
+    width: 95%;
+}
+
+.download .download-text {
+    margin: auto 5px;
+}
+
+.download-text h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.download-text h5 {
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.download .animated {
+    position: absolute;
+    top: 56%;
+    left: 23%;
+    height: 100px;
+    width: 20%;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #bab3b3;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: black;
+}
+
+.animated span {
+    color: #0071eb;
+}
+
+.animated img {
+    height: 80px;
+    width: 20%;
+    margin-right: 20px;
+}
+
+
+
+/* ----------watch---------part--------------- */
+
+.watch {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 100px 0px;
+}
+
+.watch-text {
+    position: relative;
+    margin: auto 10px;
+}
+
+.watch-text h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.watch-text p {
+    font-size: 30px;
+    font-weight: 1px;
+}
+
+
+
+
+/* --------kids--part--------------- */
+
+.kids {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 100px 0px;
+}
+
+.kids-text {
+    position: relative;
+    margin: auto 10px;
+}
+
+.kids-text h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.kids-text p {
+    font-size: 30px;
+    font-weight: 1px;
+}
+
+
+/* -----------------frequent-------------- */
+
+.freq {
+    display: grid;
+    width: auto;
+    justify-content: space-around;
+    text-align: start;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+.freq h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.freq h2 {
+    font-size: 28px;
+    padding: 30px;
+}
+
+.freq .btn {
+    border-radius: none !important;
+    outline: none;
+    background-color: #3f3e3e;
+    color: #ffffff;
+    border: none;
+    font-size: 60px;
+    font-weight: 100;
+    margin-right: 30px;
+
+}
+
+.questions {
+    height: 90px;
+    background-color: #3f3e3e;
+    margin: 5px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.freq .email {
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.email input{
+    width: 60%;
+    height: 70px;
+    margin-left: 10%;
+    padding-left: 20px;
+    background-color: #1c2432;
+    border: 1.5px solid green;
+}
+
+.email button{
+    width: 19%;
+    height: 70px;
+    display: inline;
+    justify-content: center;
+    font-size: 25px;
+    border: none;
+    padding: 20px 7px;
 }

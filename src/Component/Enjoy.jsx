@@ -17,6 +17,7 @@ export default function Enjoy(props) {
         </div>
         <img src="/img/tv.png" alt="not found" />
       </div>
+      <div className="blank-line"></div>
     </>
   );
 }
